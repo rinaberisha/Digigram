@@ -1,0 +1,42 @@
+//Variables
+$primary:       #6C55F9;
+$secondary:     #6600cc;
+$indigo:        #6610f2;
+$purple:        #6f42c1;
+$grey:          #B4B2C5;
+$warning:       #FAC14D;
+$blue:          #05B4E1;
+$green:         #35BB78;
+$danger:        #FF4943;
+$light:         #f6f5fc;
+$gray:          #6c757d;
+$gray-dark:     #343a40;
+
+
+
+$font-weight-first: 400;
+$font-weight-second: 500;
+$font-weight-third: 700;
+
+
+$font-family-first: 'Inter', sans-serif;
+$font-family-second: 'PT Sans Narrow', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+//Mixins
+ @mixin line-indigo {
+     width: 33px;
+     border: 2px solid $primary;
+     opacity: 0.9;
+     border-radius: 1px;
+ }
+
+ @mixin zoom-in {
+     
+ }
